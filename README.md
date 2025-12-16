@@ -67,16 +67,16 @@ The application features product browsing, search, shopping cart, secure checkou
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Itsyourboy13/ecommerce-fullstack-portfolio.git
-   cd fullstack-ecommerce-portfolio
+   cd ecommerce-fullstack-portfolio
 2. **Start the Backend**
    ```bash
-   cd spring-boot-ecommerce
+   cd 02-backend/spring-boot-ecommerce
    mvn spring-boot:run
 - Backend runs on https://localhost:9898
 - Database schema `full-stack-ecommerce` is created automatically
 3. **Start the Frontend**
    ```bash
-   cd ../angular-ecommerce
+   cd ../../03-frontend/angular-ecommerce
    npm install
    ng serve
 4. **Open the Application**
