@@ -1,0 +1,35 @@
+# Dependencies and build output
+node_modules/
+target/
+.angular/
+dist/
+out-tsc/
+coverage/
+
+# IDE / editor files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# Local secrets and environment files
+.env
+.env.*
+*.p12
+*.jks
+*.pem
+*.key
+*.crt
+03-frontend/angular-ecommerce/ssl-localhost/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Initializr boilerplate
+HELP.md

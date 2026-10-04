@@ -1,0 +1,8 @@
+<div *ngIf="isAuthenticated; else showLogin">
+  <span class="header-button-item">Welcome, {{ userName }}</span>
+  <button class="btn btn-link" (click)="logout()">Logout</button>
+</div>
+
+<ng-template #showLogin>
+  <button class="btn btn-primary" (click)="login()">Login</button>
+</ng-template>
